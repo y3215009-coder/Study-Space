@@ -1,0 +1,19 @@
+
+.StudyTime{
+ 
+  border: 2px solid #5613d3;
+  width: 300px;
+  margin-left: auto;
+  margin-top: 10px;
+  padding: 5px;
+}
+.header{
+  font-size: 1.8em;
+  color: rgb(79, 3, 80);
+}
+p{
+  font-size: 1.2em;
+  padding: 4px;
+}
+
+
