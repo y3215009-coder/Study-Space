@@ -9,14 +9,19 @@ import Motivation from './components/Motivation'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
+   
 
   return (
     <> 
     <h1>My Study Space</h1>
-     <StudyCheckList />
-     <StudyTime />
-     <Motivation />
+    <h2> הדרך לניהול המשימות היומיות שלך</h2>
+      
+    <div style={{ display: "flex",flexDirection: "row-reverse"  }}>
+  <StudyCheckList />
+  <StudyTime />
+  <Motivation />
+</div>
      </>
    
     

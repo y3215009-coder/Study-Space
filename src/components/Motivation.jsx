@@ -1,4 +1,4 @@
-import styles from "./Motivation.module.css";
+
 
 function Motivation() {
   const quotes = [
@@ -14,10 +14,38 @@ function Motivation() {
     alert(quotes[randomIndex]);
   };
 
-  return (
-    <div className={styles.studyMotivation}>
-      <p className={styles.header}>Motivation</p>
-      <button className={styles.buttonMotivation} onClick={showAlert}>לחצי לקבלת מוטיבציה</button>
+   return (
+    <div
+      style={{
+       backgroundColor: "#FAF0FC",
+        border: "2px solid #5613d3",
+        width: "300px",
+        marginLeft: "auto",
+        marginTop: "10px",
+        padding: "10px",
+        textAlign: "center"
+      }}
+    >
+      <p
+        style={{
+          fontSize: "2.2em",
+          color: "#3b023f",
+          fontWeight: "bold",
+          margin: "0 0 10px 0",
+          border: "none"
+        }}
+      >
+        Motivation
+      </p>
+
+      <button
+        style={{
+          backgroundColor: "antiquewhite"
+        }}
+        onClick={showAlert}
+      >
+        לחצי לקבלת מוטיבציה
+      </button>
     </div>
   );
 }
