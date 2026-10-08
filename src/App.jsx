@@ -5,6 +5,7 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import StudyCheckList from './components/StudyCheckList'
 import StudyTime from './components/studyTime'
+import Motivation from './components/Motivation'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <h1>My Study Space</h1>
      <StudyCheckList />
      <StudyTime />
+     <Motivation />
      </>
    
     
